@@ -1,0 +1,46 @@
+body {
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .search {
+     padding: 20px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .in,
+  .btn {
+    display: inline-block;
+    vertical-align: bottom;
+    height: 40px;
+  }
+  
+  .btn {
+    height: max-content;
+    cursor: pointer;
+  }
+  
+  .btn:active {
+    opacity: 0.7;
+  }
+  
+  .in {
+    width: 0;
+    opacity: 0;
+    transition: all .3s ease-out;
+    border: none;
+  }
+  
+  
+  
+  .in:focus {
+    opacity: 1;
+    width: 200px;
+  }
+  
